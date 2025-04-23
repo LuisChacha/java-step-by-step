@@ -4,10 +4,13 @@ public class Persona {
     char genero;
 
     Persona (){
-        System.out.println("Constructor Persona");
+        this("Persona por defecto", 1, 'M');
+        System.out.println("Constructor Base Persona");
+        System.out.println();
     }
 
     Persona(String nombre, int edad, char genero){
+        //this();
         this.nombre = nombre;
         this.edad = edad;
         this.genero = genero;
@@ -38,6 +41,8 @@ public class Persona {
         p2.imprimirInformacion();
 
         p1.jugarVideojuegos(p2);
+
+        new Persona().imprimirInformacion();
 
     }
 }
