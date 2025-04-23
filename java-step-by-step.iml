@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/03-TiposDeDatos" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/04-Clases" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/05-EstructurasDeControl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06-POO" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
