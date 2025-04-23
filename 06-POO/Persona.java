@@ -7,10 +7,10 @@ public class Persona {
         System.out.println("Constructor Persona");
     }
 
-    Persona(String no, int ed, char ge){
-        nombre = no;
-        edad = ed;
-        genero = ge;
+    Persona(String nombre, int edad, char genero){
+        this.nombre = nombre;
+        this.edad = edad;
+        this.genero = genero;
     }
 
     void jugarVideojuegos(Persona p){
