@@ -9,6 +9,7 @@ public class EntradaDatos {
             String nombre = sc.nextLine();
 
             System.out.printf("Es un gusto conocerte: %s%n", nombre);
+            System.out.println("Muchas gracias...!!!");
         }
     }
 }
