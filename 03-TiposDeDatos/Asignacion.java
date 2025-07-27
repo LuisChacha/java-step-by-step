@@ -7,7 +7,9 @@ public class Asignacion {
         System.out.println("Suma y asignacion (+=): " + a);
 
         a -= 3; // Equivalente a: a = a -3
-        System.out.println("Resta y asignacion (-=)" + a);
+        System.out.println("Resta y asignacion (-=):"  + a);
 
+        a *= 2; // Equivalente a: a = a * 2
+        System.out.println("Multiplicacion y asignacion (*=): " + a);
     }
 }
