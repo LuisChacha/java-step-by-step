@@ -14,5 +14,8 @@ public class Asignacion {
 
         a /= 4; // Equivalente a: a = a /4
         System.out.println("Division y asignacion (/=): " + a);
+
+        a %= 3; // Equivalente a: a = a % 3
+        System.out.println("Modulo y asignacion (%=): " + a);
     }
 }
