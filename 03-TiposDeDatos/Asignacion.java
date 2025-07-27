@@ -6,5 +6,8 @@ public class Asignacion {
         a += 5; // Equivalente a: a = a + 5
         System.out.println("Suma y asignacion (+=): " + a);
 
+        a -= 3; // Equivalente a: a = a -3
+        System.out.println("Resta y asignacion (-=)" + a);
+
     }
 }
