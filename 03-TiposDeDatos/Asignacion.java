@@ -11,5 +11,8 @@ public class Asignacion {
 
         a *= 2; // Equivalente a: a = a * 2
         System.out.println("Multiplicacion y asignacion (*=): " + a);
+
+        a /= 4; // Equivalente a: a = a /4
+        System.out.println("Division y asignacion (/=): " + a);
     }
 }
